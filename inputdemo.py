@@ -1,0 +1,7 @@
+#print("Enter No:")
+no1=int(input("enter no:"))
+no2=int(input("Enter no:"))
+sum=(no1)+(no2)
+print("no1:",no1)
+print("no2:",no2)
+print("sum:",sum)
