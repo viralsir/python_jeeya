@@ -66,18 +66,22 @@
 # print(student_list[1]["rollno"])
 # print(student_list[1]["name"])
 
+#
+# student_list=[]
+# for i in range(3):
+#     student={}
+#     student["rollno"]=int(input("Enter Roll No:"))
+#     student["name"]=input("Enter Name")
+#     student_list.append(student)
+#
+# print(student_list)
+#
+# for student in student_list:
+#     for key,value in student.items():
+#         print(key,value)
+#     print("==================")
 
-student_list=[]
-for i in range(3):
-    student={}
-    student["rollno"]=int(input("Enter Roll No:"))
-    student["name"]=input("Enter Name")
-    student_list.append(student)
-
-print(student_list)
-
-for student in student_list:
-    for key,value in student.items():
-        print(key,value)
-    print("==================")
-
+dict1={"student1":12,"student2":34,"Student3":232}
+list1=list(dict1.values())
+list1.sort(reverse=True)
+print(list1)
