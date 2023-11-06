@@ -1,4 +1,6 @@
-'''inv={
+'''
+
+inv={
     'gold': 500,
     'pouch': ["flint","twine","gemstone"],
     'backpack': ["xplophone","dagger","bedroll","bread loaf"]
@@ -13,6 +15,8 @@ print("After inserting more elements:\n",inv)
 
 #delecting element from inv dictionary
 #inv.pop()
+
+
 '''
 
 
