@@ -4,7 +4,6 @@
            variable
 
            def
-
     object : class variable
              is a instant of class
              is a unique medium to access or get the data which are binds
